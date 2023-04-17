@@ -1,0 +1,27 @@
+.top{
+padding-top: 120px !important;
+color: white;
+background-color: #5fd675;
+padding: 50px;
+
+}
+.main {
+text-align: center;
+padding: 10px 0;
+margin-bottom: 40px;
+
+}
+.between{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-direction: row;
+    
+}
