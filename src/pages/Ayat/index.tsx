@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Button, Container, Divider, Flex, Grid, Text, Title } from '@mantine/core';
+import { Button, Container, Divider, Flex, Grid, Title } from '@mantine/core';
 import { useLoaderData, useNavigate } from 'react-router-dom';
 import { IconPlayerPlay } from '@tabler/icons';
 import useStyles from './styles';
 
 const Ayat = () => {
-  const { alafasyAyat, englishAyat, indonesianAyat }: any = useLoaderData();
+  const { alafasyAyat, englishAyat }: any = useLoaderData();
   const [isPlaySound, setIsPlaySound] = useState<boolean>(false);
-  const { classes, theme } = useStyles();
+  const { classes } = useStyles();
   const navigate = useNavigate();
 
   const playSoundHandler = (url: any) => {
