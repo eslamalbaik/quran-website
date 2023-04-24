@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The sereen pages Quran web
+![image](https://user-images.githubusercontent.com/89574402/234107546-4bbfe511-4ac2-47ff-91ce-a17936175b1c.png)
+![image](https://user-images.githubusercontent.com/89574402/234107581-7be4e2e3-821d-415f-ac40-ab2b54bf1692.png)
+![Uploading image.png…]()
 
 ## Available Scripts
 
